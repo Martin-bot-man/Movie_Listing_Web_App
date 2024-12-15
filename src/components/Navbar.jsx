@@ -5,11 +5,11 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-row  justify-between bg-[#121829CC] text-[#A8AEBF]  font-Poppins font-bold">
-      <div className="h-12 w-12 mt-6 ml-12 mb-6 ">
+    <nav className="absolute w-full px-16 py-2 flex flex-row items-center  justify-between text-[#A8AEBF]  font-Poppins font-bold">
+      <div className="h-12 w-12 ">
         <img src="/images/Logo.svg" alt="logo" />
       </div>
-      <ul className="flex flex-row justify-between space-x-6 mr-40 mt-8 mb-8">
+      <ul className="flex flex-row justify-between space-x-6">
         <li>
           <Link to="/">Movies</Link>
         </li>
